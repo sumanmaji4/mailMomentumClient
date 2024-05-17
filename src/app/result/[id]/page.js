@@ -37,7 +37,7 @@ async function page({ params: { id } }) {
   }
 
   return (
-    <div className=' w-full h-full'>
+    <div className=' w-full h-full flex flex-col justify-center items-center'>
       {PerHourData?.labels?.length ? (
         <ChartToPdf
           templateName={templateName}
@@ -45,7 +45,9 @@ async function page({ params: { id } }) {
           PerDayData={PerDayData}
         />
       ) : (
-        <h2>No Data Found</h2>
+        <h2 className='mt-20 font-bold text-5xl text-slate-300'>
+          No Data Found
+        </h2>
       )}
     </div>
   )

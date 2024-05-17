@@ -12,7 +12,7 @@ import axios from 'axios'
 import { useRouter } from 'next/navigation'
 import MyIFrame from '@/components/MyIFrame'
 
-function page() {
+function Page() {
   // const [name, setName] = useState('')
   // const [subject, setSubject] = useState('')
   // const [mailBody, setMailBody] = useState('')
@@ -104,4 +104,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

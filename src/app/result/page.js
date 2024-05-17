@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React from 'react'
-import MyLineChart from './MyLineChart'
+// import MyLineChart from './MyLineChart'
 import ChartToPdf from './ChartToPdf'
 
 async function getResult() {
@@ -37,7 +37,7 @@ async function page() {
   }
 
   return (
-    <div className=' w-full h-full'>
+    <div className=' w-full h-full flex flex-col justify-center items-center'>
       {/* <h2>{templateName}</h2>
       <p className=' text-xs'>
         Hour 11 means from 11:00AM to 11:59AM, same for every hour
@@ -56,7 +56,9 @@ async function page() {
           PerDayData={PerDayData}
         />
       ) : (
-        <h2>No Data Found</h2>
+        <h2 className='mt-20 font-bold text-5xl text-slate-300'>
+          No Data Found
+        </h2>
       )}
     </div>
   )

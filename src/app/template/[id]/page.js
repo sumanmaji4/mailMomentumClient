@@ -12,7 +12,7 @@ import { Loader2 } from 'lucide-react'
 import MyIFrame from '@/components/MyIFrame'
 import { useRouter } from 'next/navigation'
 
-function page({ params: { id } }) {
+function Page({ params: { id } }) {
   const router = useRouter()
   const [templateState, setTemplateState] = useState({
     loading: false,
@@ -41,7 +41,7 @@ function page({ params: { id } }) {
         toast.error('template not found')
         router.push('/')
       })
-  }, [])
+  }, [id])
 
   function handleUpdate() {
     setTemplateState({ ...templateState, loading: true })
@@ -117,4 +117,4 @@ function page({ params: { id } }) {
   )
 }
 
-export default page
+export default Page

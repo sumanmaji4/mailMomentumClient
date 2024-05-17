@@ -6,7 +6,7 @@ import axios from 'axios'
 import { toast } from 'sonner'
 import { Loader2 } from 'lucide-react'
 
-function page() {
+function Page() {
   const [templateList, setTemplateList] = useState([])
   const [myTemplate, setMyTemplate] = useState('')
   const [mailId, setMailId] = useState('')
@@ -102,4 +102,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
