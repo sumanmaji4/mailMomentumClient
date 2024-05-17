@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Mail Momentum is a tool for A/B email engagement.
 
-## Getting Started
+Key Features:
+Create and Edit Templates: Craft engaging email templates using HTML or plain text. Our intuitive editor allows you to easily modify your templates to suit your needs.
 
-First, run the development server:
+Live Preview: See real-time previews of your emails as you compose them. This feature ensures that your emails look exactly the way you want before sending them out.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Send Emails to Any Recipient: Seamlessly send your customized emails to any recipient directly from our platform. Simply enter the recipient's email address and hit send.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Include Redirect Links: Add redirect links to your emails to guide recipients to specific web pages. This helps in tracking user engagement and driving traffic to your desired destinations.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Track User Clicks: Monitor the performance of your emails by tracking the number of user clicks on the links. Our tool provides detailed analytics presented in easy-to-understand graphs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Downloadable Data: Export your click data for further analysis. Download comprehensive reports to evaluate the success of your campaigns and make informed decisions.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Manage Templates Efficiently: Save, edit, and delete templates with ease. Keep your email campaigns organized and up-to-date with our user-friendly interface.
