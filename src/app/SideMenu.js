@@ -28,6 +28,7 @@ function SideMenu() {
                 + Add New
               </h4>
             </Link>
+
             <MailTemplates />
           </>
         )}
@@ -48,6 +49,7 @@ function SideMenu() {
         {showResult && (
           <>
             <MailTemplates result={true} />
+
             <Link href='/result'>
               <h4 className='py-1 px-4 font-normal text-sm hover:bg-green-100 cursor-pointer'>
                 Overall performance
